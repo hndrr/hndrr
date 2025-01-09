@@ -13,13 +13,18 @@ jobs:
       - uses: kawamataryo/lapras-card-readme@main
         with:
           SHARE_ID: "1TIDZDS"
+          ICON_FIRST: "#f97f90"
+          ICON_SECOND: "#ffc7cd"
+          BACKGROUND_FIRST: "#ff6176"
+          BACKGROUND_SECOND: "#546dcf"
+          LANG: "en"
           # 以下オプション
           # https://lapras-card-generator.vercel.app でカスタマイズしたデザインを設定可能
           # ICON_FIRST: "#030E21"
           # ICON_SECOND: "#1688BF"
           # BACKGROUND_FIRST: "#020E27"
           # BACKGROUND_SECOND: "#0E5593"
-          # LANG: "ja"
+          # LANG: "en"
           # CARD_WIDTH: "400"
           # UPDATE_TIME: "true"
           # README_FILE: "README.md"
